@@ -1,1 +1,1 @@
-# coursera-html-css-ja
+# coursera-html-css-js
