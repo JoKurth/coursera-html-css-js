@@ -13,12 +13,14 @@ div{
     background-color: gray;
     margin-right: 20px;
     padding-left: 10px;
+    padding-bottom: 10px;
     float: left;
 }
 
 .row{
     width: 100%;
     border: 0px;
+    background-color: initial;
 }
 
 .heading{
@@ -32,6 +34,10 @@ div{
     clear: both;
     float: right;
     width: 15%;
+}
+
+.text{
+    border: 0;
 }
 
 #chickenHeading{
