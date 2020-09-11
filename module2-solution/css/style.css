@@ -30,9 +30,13 @@ h1{
     top: -11px;
     right: -11px;
     float: right;
-    width: 25%;
+    width: 150px;
     text-align: center;
     font-size: 1.2em;
+}
+
+.text{
+    padding-top: 20px;
 }
 
 #chickenHeading{
@@ -50,21 +54,25 @@ h1{
 @media(min-width: 992px){
     .col-lg-4{
         width: 33.33%;
+        float: left;
     }
 }
 
 @media(min-width: 768px) and (max-width: 991px){
     .col-md-6{
-        width: 50%;      
+        width: 50%;  
+        float: left;    
     }
 
     .col-md-12{
         width: 100%;
+        float: left;
     }
 }
 
 @media(max-width: 767px){
     .col-sm-12{
         width: 100%;
+        float: left;
     }
 }
