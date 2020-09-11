@@ -7,20 +7,17 @@ h1{
     text-align: center;
 }
 
-div{
+.container{
     position: relative;
     border: 1px solid black;
     background-color: gray;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    margin: 20px;
+    padding: 10px;
     float: left;
 }
 
 .row{
     width: 100%;
-    border: 0px;
-    background-color: initial;
 }
 
 .heading{
@@ -30,14 +27,12 @@ div{
     margin: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    top: -1px;
-    clear: both;
+    top: -11px;
+    right: -11px;
     float: right;
-    width: 15%;
-}
-
-.text{
-    border: 0;
+    width: 25%;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 #chickenHeading{
@@ -55,17 +50,20 @@ div{
 @media(min-width: 992px){
     .col-lg-4{
         width: 33%;
+        overflow: auto;
     }
 }
 
 @media(min-width: 768px) and (max-width: 991px){
     .col-md-6{
-        width: 50%;
+        width: 50%;        
+        overflow: auto;
     }
 }
 
 @media(max-width: 767px){
     .col-sm-12{
         width: 100%;
+        overflow: auto;
     }
 }
