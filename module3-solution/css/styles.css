@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 15px;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.navbar-gray{
+    background-color: gray;
+}
+
+#navText{
+    color: black;
+    font-size: 2em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#navButton{
+    margin-top: 13px;
+    border: 2px solid black;
+}
+
+#black{
+    background-color: black;
+}
+
+#nav-list{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+#nav-list a{
+    margin-top: -1px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.background{
+    background-color: gray;
+    color: black;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.heading{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.text{
+    padding-top: 10px;
+    font-size: 1.1em;
+}
